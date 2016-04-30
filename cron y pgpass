@@ -1,0 +1,12 @@
+se instala crontab y luego en el archivo /etc/crontab agregar la siguiente linea
+
+min horas 	usuario del servidor	el script a correr en este caso el que hicimos en el punto anterior
+18 22   * * *   fabricio        /home/fabricio/Escritorio/Script.sh
+
+
+y para que no nos solicite contraseña alguna se utiliza pgpass que es un archivo que se crea en la carpeta del usuario que incluye los siguientes datos
+
+hostname:port:database:username:password
+
+localhost:5432:musicdb:admin_user:fabricioPG123
+

@@ -1,0 +1,1 @@
+Cuando se realiza un backup con -v se genera un backup de toda la base de datos incluyendo creacion de tablas,vistas,usuarios,registros,etc mientras que -a solo de los registros
